@@ -4,6 +4,8 @@
 name: Go
 
 on:
+  issues:
+    types: opened
   push:
     branches: [ "main" ]
   pull_request:
